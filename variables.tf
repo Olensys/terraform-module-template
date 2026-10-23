@@ -25,7 +25,7 @@ variable "context" {
 }
 
 variable "create" {
-  description = "Whether to create any resources. Set false to plan nothing."
+  description = "Whether to create any resources. Set false to create nothing."
   type        = bool
   default     = true
 }
